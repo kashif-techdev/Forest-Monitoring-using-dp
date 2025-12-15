@@ -1,0 +1,1 @@
+Test Case 7: Complete graph K4 - all vertices connected

@@ -1,0 +1,1 @@
+Test Case 5: Star graph - center vertex covers all edges

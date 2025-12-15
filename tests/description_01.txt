@@ -1,0 +1,1 @@
+Test Case 1: Empty graph - no edges, all isolated vertices

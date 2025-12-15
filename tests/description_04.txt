@@ -1,0 +1,1 @@
+Test Case 4: Triangle K3 - complete graph on 3 vertices
