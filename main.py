@@ -1,5 +1,4 @@
 """
-CS301 Assignment 5: Forest Monitoring Problem
 Minimum Vertex Cover using Dynamic Programming over Subsets
 
 This module implements an exact DP algorithm for finding the minimum vertex cover
