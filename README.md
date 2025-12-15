@@ -54,8 +54,13 @@ python plot_runtime.py benchmark_results.json
 Test Instances 
 We designed 9 test instances covering a wide range of graph structures and important edge cases. 
 <img width="576" height="341" alt="image" src="https://github.com/user-attachments/assets/88f49e8b-f7c5-4eba-8925-894c2dca0d3e" />
+<br>
+<br>
 Test Results Table 
+<br>
 <img width="576" height="352" alt="image" src="https://github.com/user-attachments/assets/dddc1281-1999-4472-a272-1297ae208918" />
+<br>
+<br>
 Properties Tested:  
 White-box: Base cases, recursion correctness, edge selection, subset enumeration  Black-box: Correctness on various graph structures, optimality, edge case handling 
 
@@ -84,9 +89,17 @@ The experimental results confirm the asymptotic time complexity analysis:
 •	Theoretical: O(2ⁿ · |E|) or O(2^n) when |E| is polynomial in n 
 •	Empirical: The log-scale plot shows a linear relationship between log(time) and n, indicating exponential growth with base 2 
 The empirical runtime plot demonstrates that: 
+<img width="576" height="340" alt="image" src="https://github.com/user-attachments/assets/0e967180-2e94-4402-b25f-507aca9f3ad5" />
+<br>
+1.	The algorithm's performance matches the O(2ⁿ) theoretical bound 
+2.	The constant factors are reasonable for practical use on small-to-medium graphs 
+3.	The exponential nature makes the algorithm suitable for exact solutions on graphs with n ≤ 20 vertices 
 
+# conclusion
+The DP algorithm correctly implements the subset-based approach and achieves the expected exponential time complexity, providing exact solutions for the minimum vertex cover problem. 
 
 
 ## Contact
 
 Repository maintained by `kashif-techdev`.
+kashif.techdev@gmail.com
